@@ -20,6 +20,7 @@
 }
 body{
     background-image: url('../pic/bg4.jpg');
+    background-size: 100%;
     margin: 0px;
     line-height: normal;
     padding: 0px;
