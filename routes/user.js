@@ -21,7 +21,7 @@ router.post('/login',async (ctx,next)=>{
 })
 
 router.get('/visitCounter',async (ctx,next)=>{
-
+    console.log('访问加一')
     return await visitCounter(ctx);
 })
 

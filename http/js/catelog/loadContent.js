@@ -51,5 +51,5 @@ $().ready(()=>{
             
         })
         return Promise.resolve(catelog);
-    }).then(navbar(catelog)).then(dynamicTitle);
+    }).then(navbar(catelog)).then(dynamicTitle).then(visitCount);
 })

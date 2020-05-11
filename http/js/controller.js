@@ -44,3 +44,21 @@ function formatHtml(html){
     str=str.replace(/\_+/g,'_');
     return str;
 }
+
+
+//请求访问次数
+const visitCount=()=>{
+    
+    const $visitCounter=$('.visit-counter');
+    const url=`/api/user/visitCounter`;
+    get(url).then(res=>{
+        if(res.errno){
+            alert('数据错误');
+            return;
+        }
+        console.log(res);
+        $visitCounter.append(res.visitCounter);
+
+        return;
+    })
+}

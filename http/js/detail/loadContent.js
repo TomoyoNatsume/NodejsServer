@@ -35,6 +35,7 @@ $().ready(function(){
         navbar(catelog);
         popovers();
         dynamicTitle();
+        visitCount();
         Promise.resolve();
     }).then(()=>{
         //为内容div中的所有div添加类名：text1|text2
