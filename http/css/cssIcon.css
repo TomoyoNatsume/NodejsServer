@@ -1,0 +1,60 @@
+/* 菜单图标。可以设置任意大小。border要自己设置，但border-radius已经设置好 */
+.menu-icon{
+    width: 100px;
+    height: 100px   ;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 10%;
+    cursor: pointer;
+}
+.menu-icon > .inner3{
+    width: 60%;
+    height: 10%;
+    left: 20%;
+    top:20%;
+    position: absolute;
+    background-color: black;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.menu-icon > .inner2{
+    width: 60%;
+    height: 10%;
+    left: 20%;
+    top:45%;
+    position: absolute;
+    background-color: black;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.menu-icon > .inner1{
+    width: 60%;
+    height: 10%;
+    left: 20%;
+    top:70%;
+    position: absolute;
+    background-color: black;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.menu-icon:focus{
+    cursor: pointer;
+}
+.menu-icon:focus > .inner3{
+    top:50%;
+    transform: rotate(-405deg);
+    -webkit-transform: rotate(-405deg);
+}
+.menu-icon:focus > .inner2{
+    /* display: none; */
+    transform: scale(0,0);
+    -webkit-transform: scale(0,0);
+}
+.menu-icon:focus > .inner1{
+    top:50%;
+    transform:  rotate(405deg) ;
+    -webkit-transform: rotate(405deg);
+}
+
+
+

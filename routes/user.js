@@ -1,6 +1,7 @@
 const router=require('koa-router')();
-
-const {login} = require('../controller/user');
+const fs=require('fs');
+const path=require('path');
+const {login,visitCounter} = require('../controller/user');
 const {SuccessModel,ErrorModel}=require('../model/resModel');
 
 
@@ -17,6 +18,11 @@ router.post('/login',async (ctx,next)=>{
         return;
     }
     ctx.body=new ErrorModel('登录失败');
+})
+
+router.get('/visitCounter',async (ctx,next)=>{
+
+    return await visitCounter(ctx);
 })
 
 

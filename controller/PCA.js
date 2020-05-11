@@ -53,8 +53,8 @@ const writeLog=async(ctx)=>{
                     resolve({err:2});
                     return console.log('写入log失败');
                 }
+                resolve(id);
             })
-            resolve(id);
 
         })
 

@@ -86,7 +86,7 @@ router.get('/getFile',loginCheck_,async(ctx,next)=>{
     ctx.attachment(ctx.query.f);
     await send(ctx,fileName);
     console.log('名字：',fileName);
-    return;
+    return ctx.body=new SuccessModel();
 })
 
 // router.post('/postFile',loginCheck,async(ctx,next)=>{

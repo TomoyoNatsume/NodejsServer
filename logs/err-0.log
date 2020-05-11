@@ -51,3 +51,104 @@ Error: Connection lost: The server closed the connection.
     at Socket.emit (events.js:323:22)
     at endReadableNT (_stream_readable.js:1204:12)
     at processTicksAndRejections (internal/process/task_queues.js:84:21)
+2020-05-09 23:24:32: server error ReferenceError: path is not defined
+    at E:\TomoyoServer\controller\user.js:17:24
+    at new Promise (<anonymous>)
+    at visitCounter (E:\TomoyoServer\controller\user.js:16:19)
+    at E:\TomoyoServer\routes\user.js:24:11
+    at dispatch (E:\TomoyoServer\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\TomoyoServer\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\TomoyoServer\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\TomoyoServer\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\TomoyoServer\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\TomoyoServer\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\TomoyoServer\node_modules\koa-compose\index.js:42:32)
+    at dispatch (E:\TomoyoServer\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (E:\TomoyoServer\node_modules\koa-compose\index.js:42:32)
+    at dispatch (E:\TomoyoServer\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (E:\TomoyoServer\node_modules\koa-compose\index.js:42:32)
+    at dispatch (E:\TomoyoServer\node_modules\koa-router\lib\router.js:332:32) {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+      accept: '*/*',
+      'accept-language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+      'accept-encoding': 'gzip, deflate',
+      'x-requested-with': 'XMLHttpRequest',
+      referer: 'http://localhost:8080/',
+      'cache-control': 'max-age=0'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] {}
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-10 01:16:32: server error Error: Command failed: python "./py/PCA PLSR.py"
+Traceback (most recent call last):
+  File "./py/PCA PLSR.py", line 3, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+
+    at ChildProcess.exithandler (child_process.js:303:12)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1051:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:287:5) {
+  killed: false,
+  code: 1,
+  signal: null,
+  cmd: 'python "./py/PCA PLSR.py"',
+  stdout: '',
+  stderr: 'Traceback (most recent call last):\r\n' +
+    '  File "./py/PCA PLSR.py", line 3, in <module>\r\n' +
+    '    import numpy as np\r\n' +
+    "ModuleNotFoundError: No module named 'numpy'\r\n"
+} {
+  request: {
+    method: 'POST',
+    url: '/api/PCA/postFile',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      'content-length': '2658687',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+      accept: '*/*',
+      'accept-language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+      'accept-encoding': 'gzip, deflate',
+      'x-requested-with': 'XMLHttpRequest',
+      'content-type': 'multipart/form-data; boundary=---------------------------31741393774224048346895558692',
+      origin: 'http://localhost:8080',
+      referer: 'http://localhost:8080/test19268',
+      cookie: 'koa.sid=plEw1xz4Bq3U07N6svoHnN7vwcUoQI-v; koa.sid.sig=J92m5t3hGIUao85ZLk4P0WHbDwc'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/PCA/postFile',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (E:\TomoyoServer\node_modules\mysql\lib\protocol\Protocol.js:112:13)
+    at Socket.<anonymous> (E:\TomoyoServer\node_modules\mysql\lib\Connection.js:94:28)
+    at Socket.<anonymous> (E:\TomoyoServer\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:327:22)
+    at endReadableNT (_stream_readable.js:1225:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)

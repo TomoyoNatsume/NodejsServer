@@ -99,12 +99,6 @@ app.use(session({
   },
   store:redisStore(
     {
-      //all:`${REDIS_CONF.host}:${REDIS_CONF.port}`
-      // all:{
-      //   port:8991,
-      //   host:'127.0.0.1',
-      //   password:'lyhredis'
-      // }
       host:REDIS_CONF.host,
       port:REDIS_CONF.port,
       password:REDIS_CONF.password
