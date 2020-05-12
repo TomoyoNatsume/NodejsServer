@@ -67,6 +67,8 @@ footer embed{
 }
 .contact-us-list{
     list-style: none;
-    background-color: rgba(209, 209, 209, 0.473);
+    background-color: #2c3e5086;
     width: 25em;
+    padding: 2em;
+    border-radius: .5em;
 }
