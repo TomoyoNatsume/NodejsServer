@@ -3,7 +3,7 @@
 <head> 
 <meta charset="utf-8"> 
 <head>
-    
+    <link href="./css/loading.css" rel="stylesheet">
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
     <script>
 
@@ -74,8 +74,8 @@
             var trans=[];
             for(let i=0;i<numOfElement;i++){
                 $('.main').append(`<div class="element"></div>`);
-            }  
-            $('body').click(()=>{
+            };
+            const loadingAnime=()=>{
                 const maxWidth=parseInt($('.main').css('width'));
                 const maxHeight=parseInt($('.main').css('height'));
                 trans=[];
@@ -85,15 +85,15 @@
                         if(Math.random()>0.5){
                             trans.push({
                                 xFirst:true,
-                                transX:(Math.random()-.5)*(maxWidth-80)+30,
-                                transY:(Math.random()-.5)*(maxHeight-80)+30
+                                transX:(Math.random()-.5)*(maxWidth-180)+30,
+                                transY:(Math.random()-.5)*(maxHeight-180)+30
                             })
                         }
                         else{
                             trans.push({
                                 xFirst:false,
-                                transX:(Math.random()-.5)*(maxWidth-80)+30,
-                                transY:(Math.random()-.5)*(maxHeight-80)+30
+                                transX:(Math.random()-.5)*(maxWidth-180)+30,
+                                transY:(Math.random()-.5)*(maxHeight-180)+30
                             })
                         }
                     }
@@ -126,9 +126,6 @@
                             const color=colors[Math.floor(Math.random()*(colors.length-1))].color;
                             $(item).css("background-color",color);
                             $(item).css("box-shadow",`3px 3px 5px ${color}`);
-                            // $(item).css("transform",`
-                            //     ${$(item).css('transform')} translateX(${(Math.random()-.5)*400+30}px) translateY(${(Math.random()-.5)*400+30}px) 
-                            // `);
                             if(!trans[index].xFirst){
                                 $(item).css('transform',`${$(item).css('transform')} translateX(${trans[index].transX}px)`)
 
@@ -140,40 +137,22 @@
                         })
                     },500);
                 })
+            }
+            loadingAnime();
+            const promise=new Promise((resolve,reject)=>{
+                
+                resolve();
             })
+            promise.then(()=>{
+            })
+            setInterval(loadingAnime,1500);
+            setTimeout(()=>{
+                location.href=`/index_.html`;
+            },4500)
         })
     </script>
-    <style>
-        .element{
-            transition: .5s ease-in;
-            -webkit-transition: .5s ease-in;
-            position:absolute;
-            left:0px;
-            top:0px;
-            bottom: 0px;
-            right: 0px;
-            margin: auto;
-            background-color: #bdc3c7;
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-        }
-        .middle.element{
-            border-radius: 25%;
-        }
-        .end.element{
-            border-radius: 25%;
-        }
-        .main{
-            position: relative;
-            width: 100%;
-            height: 100vh;
-            background-color: #eee;
-        }
-    </style>
 </head>
+<div class="main"></div>
 <body>
-<div class="main">
-</div>
 </body>
 </html>

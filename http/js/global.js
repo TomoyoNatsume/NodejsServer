@@ -12,6 +12,6 @@ $().ready(()=>{
 
     
     //导航栏Tomoyo链接
-    $('.navbar-brand').attr('href','/index.html')
+    $('.navbar-brand').attr('href','/index_.html')
     // $('li.dropdown').text('HTML');
 })

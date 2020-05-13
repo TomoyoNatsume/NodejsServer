@@ -1,0 +1,30 @@
+.element{
+    transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+    position:absolute;
+    left:0px;
+    top:0px;
+    bottom: 0px;
+    right: 0px;
+    margin: auto;
+    background-color: #bdc3c7;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.middle.element{
+    border-radius: 25%;
+}
+.end.element{
+    border-radius: 25%;
+}
+.main{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
