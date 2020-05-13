@@ -95,7 +95,7 @@ $().ready(function(){
         +function () {
             var oIndex=document.getElementById('wrapper');
             if(!oIndex)return;
-            var a=36*$('#wrapper .item span').length+300;
+            var a=44*$('#wrapper .item span').length+220;
             a=a>450?a:450;
             oIndex.style.height=a+'px';
         }();
