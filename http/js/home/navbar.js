@@ -2,7 +2,7 @@ $().ready(()=>{
     const promise=new Promise((resolve,reject)=>{
         //下拉菜单内容
         $('.dropdown-menu').eq(0).html(`
-        <a href="/index_catelog?catelog=HTML">HTML</a><a>游戏</a><a href="/index_catelog?catelog=JP">日语</a><a>菜单</a><a href="/index_catelog?catelog=Others">其它笔记</a>
+        <a href="/index_catelog?catelog=HTML">HTML</a><a>游戏</a><a href="/index_catelog?catelog=JP">日语</a><a>菜单</a><a href="/index_catelog?catelog=NJE">法考</a><a href="/index_catelog?catelog=Others">其它笔记</a>
         `);
         resolve();
     }).then(()=>{

@@ -21,6 +21,10 @@ $().ready(()=>{
             catelog='其它笔记';
             break;
         }
+        case 'NJE':{
+            catelog='法考';
+            break;
+        }
         default:{
             catelog='HTML';
             break;

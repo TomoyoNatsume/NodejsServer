@@ -48,7 +48,8 @@
               <option value="1">游戏</option>
               <option value="2">日语</option>
               <option value="3">菜单</option>
-              <option value="4">其它笔记</option>
+              <option value="4">法考</option>
+              <option value="5">其它笔记</option>
             </select>
             <div class="input-group-append">
               <button class="btn btn-outline-secondary" type="button" id="btn-update">保存</button>
@@ -100,8 +101,12 @@
                     $selector[0].selectedIndex=3;
                     break;
                 }
-                case '其它笔记':{
+                case '法考':{
                     $selector[0].selectedIndex=4;
+                    break;
+                }
+                case '其它笔记':{
+                    $selector[0].selectedIndex=5;
                     break;
                 }
             }

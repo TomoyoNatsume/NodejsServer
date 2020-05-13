@@ -25,7 +25,6 @@ const visitCounter=(ctx)=>{
             }
             var logData=data.toString();
             logData=JSON.parse(logData);
-            console.log(logData);
             ctx.body={};
             ctx.body.visitCounter=++logData.counter;
             fs.writeFile(fileName,JSON.stringify(logData),err=>{
@@ -35,7 +34,7 @@ const visitCounter=(ctx)=>{
                     return;
                 }
                 resolve();
-                return console.log('ctx:',ctx);
+                return;
             })
             return;
         })

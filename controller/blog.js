@@ -77,6 +77,7 @@ const delBlog=async (id,author)=>{
 const getTitleList=async (catelog)=>{
     const sql=`
     select id,title,createtime from blogs where catelog='${catelog}'`;
+    console.log(`sql:`,sql)
     return await exec(sql);
 
 }

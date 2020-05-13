@@ -5871,3 +5871,1395 @@ NameError: name 'path' is not defined
 }
 2020-05-13 00:27:38: Tomoyo:GET /api/user/visitCounter - 11ms
 2020-05-13 00:27:38:   --> GET /api/user/visitCounter 200 13ms 20b
+2020-05-13 19:55:33:   <-- GET /api/user/visitCounter
+2020-05-13 19:55:33: 访问加一
+2020-05-13 19:55:33: { counter: 129 }
+2020-05-13 19:55:33: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      accept: '*/*',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36 OPR/68.0.3618.86',
+      'x-requested-with': 'XMLHttpRequest',
+      'sec-fetch-site': 'same-origin',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-dest': 'empty',
+      referer: 'http://localhost:8080/',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 19:55:33: Tomoyo:GET /api/user/visitCounter - 14ms
+2020-05-13 19:55:33:   --> GET /api/user/visitCounter 200 314ms 20b
+2020-05-13 19:56:53:   <-- GET /api/user/visitCounter
+2020-05-13 19:56:53: 访问加一
+2020-05-13 19:56:53: { counter: 130 }
+2020-05-13 19:56:53: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      accept: '*/*',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36 OPR/68.0.3618.86',
+      'x-requested-with': 'XMLHttpRequest',
+      'sec-fetch-site': 'same-origin',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-dest': 'empty',
+      referer: 'http://localhost:8080/',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 19:56:53: Tomoyo:GET /api/user/visitCounter - 9ms
+2020-05-13 19:56:53:   --> GET /api/user/visitCounter 200 11ms 20b
+2020-05-13 20:03:15:   <-- GET /api/user/visitCounter
+2020-05-13 20:03:15: 访问加一
+2020-05-13 20:03:15: { counter: 131 }
+2020-05-13 20:03:15: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      accept: '*/*',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36 OPR/68.0.3618.86',
+      'x-requested-with': 'XMLHttpRequest',
+      'sec-fetch-site': 'same-origin',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-dest': 'empty',
+      referer: 'http://localhost:8080/index_.html',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:03:15: Tomoyo:GET /api/user/visitCounter - 7ms
+2020-05-13 20:03:15:   --> GET /api/user/visitCounter 200 9ms 20b
+2020-05-13 20:03:31:   <-- GET /api/user/visitCounter
+2020-05-13 20:03:31: 访问加一
+2020-05-13 20:03:31: { counter: 132 }
+2020-05-13 20:03:31: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      accept: '*/*',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36 OPR/68.0.3618.86',
+      'x-requested-with': 'XMLHttpRequest',
+      'sec-fetch-site': 'same-origin',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-dest': 'empty',
+      referer: 'http://localhost:8080/index_.html',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:03:31: Tomoyo:GET /api/user/visitCounter - 5ms
+2020-05-13 20:03:31:   --> GET /api/user/visitCounter 200 7ms 20b
+2020-05-13 20:05:02:   <-- GET /api/user/visitCounter
+2020-05-13 20:05:02: 访问加一
+2020-05-13 20:05:02: { counter: 133 }
+2020-05-13 20:05:02: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      accept: '*/*',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36 OPR/68.0.3618.86',
+      'x-requested-with': 'XMLHttpRequest',
+      'sec-fetch-site': 'same-origin',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-dest': 'empty',
+      referer: 'http://localhost:8080/index_.html',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:05:02: Tomoyo:GET /api/user/visitCounter - 6ms
+2020-05-13 20:05:02:   --> GET /api/user/visitCounter 200 6ms 20b
+2020-05-13 20:05:59:   <-- GET /api/user/visitCounter
+2020-05-13 20:05:59: 访问加一
+2020-05-13 20:05:59: { counter: 134 }
+2020-05-13 20:05:59: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      accept: '*/*',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36 OPR/68.0.3618.86',
+      'x-requested-with': 'XMLHttpRequest',
+      'sec-fetch-site': 'same-origin',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-dest': 'empty',
+      referer: 'http://localhost:8080/index_.html',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:05:59: Tomoyo:GET /api/user/visitCounter - 6ms
+2020-05-13 20:05:59:   --> GET /api/user/visitCounter 200 7ms 20b
+2020-05-13 20:06:17:   <-- GET /api/user/visitCounter
+2020-05-13 20:06:17: 访问加一
+2020-05-13 20:06:17: { counter: 135 }
+2020-05-13 20:06:17: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+      accept: '*/*',
+      'accept-language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+      'accept-encoding': 'gzip, deflate',
+      'x-requested-with': 'XMLHttpRequest',
+      referer: 'http://localhost:8080/index_.html'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:06:17: Tomoyo:GET /api/user/visitCounter - 6ms
+2020-05-13 20:06:17:   --> GET /api/user/visitCounter 200 7ms 20b
+2020-05-13 20:06:34:   <-- GET /api/user/visitCounter
+2020-05-13 20:06:34: 访问加一
+2020-05-13 20:06:34: { counter: 136 }
+2020-05-13 20:06:34: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+      accept: '*/*',
+      'accept-language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+      'accept-encoding': 'gzip, deflate',
+      'x-requested-with': 'XMLHttpRequest',
+      referer: 'http://localhost:8080/index_.html'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:06:34: Tomoyo:GET /api/user/visitCounter - 5ms
+2020-05-13 20:06:34:   --> GET /api/user/visitCounter 200 7ms 20b
+2020-05-13 20:06:40:   <-- GET /api/user/visitCounter
+2020-05-13 20:06:40: 访问加一
+2020-05-13 20:06:40: { counter: 137 }
+2020-05-13 20:06:40: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+      accept: '*/*',
+      'accept-language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+      'accept-encoding': 'gzip, deflate',
+      'x-requested-with': 'XMLHttpRequest',
+      referer: 'http://localhost:8080/index_.html'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:06:40: Tomoyo:GET /api/user/visitCounter - 9ms
+2020-05-13 20:06:40:   --> GET /api/user/visitCounter 200 9ms 20b
+2020-05-13 20:06:50:   <-- GET /api/user/visitCounter
+2020-05-13 20:06:50: 访问加一
+2020-05-13 20:06:50: { counter: 138 }
+2020-05-13 20:06:50: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+      accept: '*/*',
+      'accept-language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+      'accept-encoding': 'gzip, deflate',
+      'x-requested-with': 'XMLHttpRequest',
+      referer: 'http://localhost:8080/index_.html'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:06:50: Tomoyo:GET /api/user/visitCounter - 7ms
+2020-05-13 20:06:50:   --> GET /api/user/visitCounter 200 9ms 20b
+2020-05-13 20:07:12:   <-- GET /api/user/visitCounter
+2020-05-13 20:07:12: 访问加一
+2020-05-13 20:07:12: { counter: 139 }
+2020-05-13 20:07:12: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      accept: '*/*',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36 OPR/68.0.3618.86',
+      'x-requested-with': 'XMLHttpRequest',
+      'sec-fetch-site': 'same-origin',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-dest': 'empty',
+      referer: 'http://localhost:8080/index_.html',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:07:12: Tomoyo:GET /api/user/visitCounter - 17ms
+2020-05-13 20:07:12:   --> GET /api/user/visitCounter 200 19ms 20b
+2020-05-13 20:07:56:   <-- GET /api/user/visitCounter
+2020-05-13 20:07:56: 访问加一
+2020-05-13 20:07:56: { counter: 140 }
+2020-05-13 20:07:56: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+      accept: '*/*',
+      'accept-language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+      'accept-encoding': 'gzip, deflate',
+      'x-requested-with': 'XMLHttpRequest',
+      referer: 'http://localhost:8080/index_.html'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:07:56: Tomoyo:GET /api/user/visitCounter - 10ms
+2020-05-13 20:07:56:   --> GET /api/user/visitCounter 200 10ms 20b
+2020-05-13 20:08:14:   <-- GET /api/user/visitCounter
+2020-05-13 20:08:14: 访问加一
+2020-05-13 20:08:14: { counter: 141 }
+2020-05-13 20:08:14: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      accept: '*/*',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36 OPR/68.0.3618.86',
+      'x-requested-with': 'XMLHttpRequest',
+      'sec-fetch-site': 'same-origin',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-dest': 'empty',
+      referer: 'http://localhost:8080/index_.html',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:08:14: Tomoyo:GET /api/user/visitCounter - 6ms
+2020-05-13 20:08:14:   --> GET /api/user/visitCounter 200 8ms 20b
+2020-05-13 20:08:30:   <-- GET /api/user/visitCounter
+2020-05-13 20:08:30: 访问加一
+2020-05-13 20:08:30: { counter: 142 }
+2020-05-13 20:08:30: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      accept: '*/*',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36 OPR/68.0.3618.86',
+      'x-requested-with': 'XMLHttpRequest',
+      'sec-fetch-site': 'same-origin',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-dest': 'empty',
+      referer: 'http://localhost:8080/index_.html',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:08:30: Tomoyo:GET /api/user/visitCounter - 8ms
+2020-05-13 20:08:30:   --> GET /api/user/visitCounter 200 10ms 20b
+2020-05-13 20:09:38:   <-- GET /api/user/visitCounter
+2020-05-13 20:09:38: 访问加一
+2020-05-13 20:09:38: { counter: 143 }
+2020-05-13 20:09:38: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+      accept: '*/*',
+      'accept-language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+      'accept-encoding': 'gzip, deflate',
+      'x-requested-with': 'XMLHttpRequest',
+      referer: 'http://localhost:8080/index_.html'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:09:38: Tomoyo:GET /api/user/visitCounter - 11ms
+2020-05-13 20:09:38:   --> GET /api/user/visitCounter 200 13ms 20b
+2020-05-13 20:10:19:   <-- GET /api/user/visitCounter
+2020-05-13 20:10:19: 访问加一
+2020-05-13 20:10:19: { counter: 144 }
+2020-05-13 20:10:19: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      accept: '*/*',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36 OPR/68.0.3618.86',
+      'x-requested-with': 'XMLHttpRequest',
+      'sec-fetch-site': 'same-origin',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-dest': 'empty',
+      referer: 'http://localhost:8080/index_.html',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:10:19: Tomoyo:GET /api/user/visitCounter - 5ms
+2020-05-13 20:10:19:   --> GET /api/user/visitCounter 200 6ms 20b
+2020-05-13 20:10:29:   <-- GET /api/user/visitCounter
+2020-05-13 20:10:29: 访问加一
+2020-05-13 20:10:29: { counter: 145 }
+2020-05-13 20:10:29: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      accept: '*/*',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36 OPR/68.0.3618.86',
+      'x-requested-with': 'XMLHttpRequest',
+      'sec-fetch-site': 'same-origin',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-dest': 'empty',
+      referer: 'http://localhost:8080/index_.html',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:10:29: Tomoyo:GET /api/user/visitCounter - 7ms
+2020-05-13 20:10:29:   --> GET /api/user/visitCounter 200 10ms 20b
+2020-05-13 20:15:50:   <-- GET /api/user/visitCounter
+2020-05-13 20:15:50: 访问加一
+2020-05-13 20:15:50: { counter: 146 }
+2020-05-13 20:15:50: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+      accept: '*/*',
+      'accept-language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+      'accept-encoding': 'gzip, deflate',
+      'x-requested-with': 'XMLHttpRequest',
+      referer: 'http://localhost:8080/index_.html'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:15:50: Tomoyo:GET /api/user/visitCounter - 6ms
+2020-05-13 20:15:50:   --> GET /api/user/visitCounter 200 7ms 20b
+2020-05-13 20:16:52:   <-- GET /api/user/visitCounter
+2020-05-13 20:16:52: 访问加一
+2020-05-13 20:16:52: { counter: 147 }
+2020-05-13 20:16:52: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      accept: '*/*',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36 OPR/68.0.3618.86',
+      'x-requested-with': 'XMLHttpRequest',
+      'sec-fetch-site': 'same-origin',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-dest': 'empty',
+      referer: 'http://localhost:8080/index_.html',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:16:52: Tomoyo:GET /api/user/visitCounter - 4ms
+2020-05-13 20:16:52:   --> GET /api/user/visitCounter 200 6ms 20b
+2020-05-13 20:17:02:   <-- GET /api/user/visitCounter
+2020-05-13 20:17:02: 访问加一
+2020-05-13 20:17:02: { counter: 148 }
+2020-05-13 20:17:02: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      accept: '*/*',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36 OPR/68.0.3618.86',
+      'x-requested-with': 'XMLHttpRequest',
+      'sec-fetch-site': 'same-origin',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-dest': 'empty',
+      referer: 'http://localhost:8080/index_.html',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:17:02: Tomoyo:GET /api/user/visitCounter - 8ms
+2020-05-13 20:17:02:   --> GET /api/user/visitCounter 200 9ms 20b
+2020-05-13 20:17:07:   <-- GET /api/user/visitCounter
+2020-05-13 20:17:07: 访问加一
+2020-05-13 20:17:07: { counter: 149 }
+2020-05-13 20:17:07: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      accept: '*/*',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36 OPR/68.0.3618.86',
+      'x-requested-with': 'XMLHttpRequest',
+      'sec-fetch-site': 'same-origin',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-dest': 'empty',
+      referer: 'http://localhost:8080/index_.html',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:17:07: Tomoyo:GET /api/user/visitCounter - 12ms
+2020-05-13 20:17:07:   --> GET /api/user/visitCounter 200 13ms 20b
+2020-05-13 20:22:24:   <-- GET /api/blog/titleList?catelog=HTML
+2020-05-13 20:22:24: Tomoyo:GET /api/blog/titleList?catelog=HTML - 37ms
+2020-05-13 20:22:24:   --> GET /api/blog/titleList?catelog=HTML 200 39ms 438b
+2020-05-13 20:22:24:   <-- GET /api/blog/titleList?catelog=HTML
+2020-05-13 20:22:24: Tomoyo:GET /api/blog/titleList?catelog=HTML - 1ms
+2020-05-13 20:22:24:   --> GET /api/blog/titleList?catelog=HTML 200 2ms 438b
+2020-05-13 20:22:24:   <-- GET /api/user/visitCounter
+2020-05-13 20:22:24: 访问加一
+2020-05-13 20:22:24: { counter: 150 }
+2020-05-13 20:22:24: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      accept: '*/*',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36 OPR/68.0.3618.86',
+      'x-requested-with': 'XMLHttpRequest',
+      'sec-fetch-site': 'same-origin',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-dest': 'empty',
+      referer: 'http://localhost:8080/index_catelog?catelog=HTML',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:22:24: Tomoyo:GET /api/user/visitCounter - 5ms
+2020-05-13 20:22:24:   --> GET /api/user/visitCounter 200 5ms 20b
+2020-05-13 20:23:04:   <-- GET /api/user/visitCounter
+2020-05-13 20:23:04: 访问加一
+2020-05-13 20:23:04: { counter: 151 }
+2020-05-13 20:23:04: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      accept: '*/*',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36 OPR/68.0.3618.86',
+      'x-requested-with': 'XMLHttpRequest',
+      'sec-fetch-site': 'same-origin',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-dest': 'empty',
+      referer: 'http://localhost:8080/index_.html',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:23:04: Tomoyo:GET /api/user/visitCounter - 8ms
+2020-05-13 20:23:04:   --> GET /api/user/visitCounter 200 11ms 20b
+2020-05-13 20:23:11:   <-- GET /api/user/visitCounter
+2020-05-13 20:23:11: 访问加一
+2020-05-13 20:23:11: { counter: 152 }
+2020-05-13 20:23:11: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      accept: '*/*',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36 OPR/68.0.3618.86',
+      'x-requested-with': 'XMLHttpRequest',
+      'sec-fetch-site': 'same-origin',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-dest': 'empty',
+      referer: 'http://localhost:8080/index_.html',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:23:11: Tomoyo:GET /api/user/visitCounter - 8ms
+2020-05-13 20:23:11:   --> GET /api/user/visitCounter 200 10ms 20b
+2020-05-13 20:23:24:   <-- GET /api/user/visitCounter
+2020-05-13 20:23:24: 访问加一
+2020-05-13 20:23:24: { counter: 153 }
+2020-05-13 20:23:24: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+      accept: '*/*',
+      'accept-language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+      'accept-encoding': 'gzip, deflate',
+      'x-requested-with': 'XMLHttpRequest',
+      referer: 'http://localhost:8080/index_.html'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:23:24: Tomoyo:GET /api/user/visitCounter - 7ms
+2020-05-13 20:23:24:   --> GET /api/user/visitCounter 200 9ms 20b
+2020-05-13 20:37:39:   <-- GET /api/user/visitCounter
+2020-05-13 20:37:39: 访问加一
+2020-05-13 20:37:39: { counter: 154 }
+2020-05-13 20:37:39: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+      accept: '*/*',
+      'accept-language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+      'accept-encoding': 'gzip, deflate',
+      'x-requested-with': 'XMLHttpRequest',
+      referer: 'http://localhost:8080/index_.html'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:37:39: Tomoyo:GET /api/user/visitCounter - 8ms
+2020-05-13 20:37:39:   --> GET /api/user/visitCounter 200 8ms 20b
+2020-05-13 20:37:41:   <-- GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83
+2020-05-13 20:37:41:   <-- GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83
+2020-05-13 20:37:41: Tomoyo:GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 - 1ms
+2020-05-13 20:37:41:   --> GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 200 4ms 21b
+2020-05-13 20:37:41: Tomoyo:GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 - 3ms
+2020-05-13 20:37:41:   --> GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 200 5ms 21b
+2020-05-13 20:37:41:   <-- GET /api/user/visitCounter
+2020-05-13 20:37:41: 访问加一
+2020-05-13 20:37:41: { counter: 155 }
+2020-05-13 20:37:41: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+      accept: '*/*',
+      'accept-language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+      'accept-encoding': 'gzip, deflate',
+      'x-requested-with': 'XMLHttpRequest',
+      referer: 'http://localhost:8080/index_catelog?catelog=NJE'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:37:41: Tomoyo:GET /api/user/visitCounter - 5ms
+2020-05-13 20:37:41:   --> GET /api/user/visitCounter 200 7ms 20b
+2020-05-13 20:38:14:   <-- GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83
+2020-05-13 20:38:14:   <-- GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83
+2020-05-13 20:38:14: Tomoyo:GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 - 2ms
+2020-05-13 20:38:14:   --> GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 200 4ms 21b
+2020-05-13 20:38:14: Tomoyo:GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 - 2ms
+2020-05-13 20:38:14:   --> GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 200 3ms 21b
+2020-05-13 20:38:14:   <-- GET /api/user/visitCounter
+2020-05-13 20:38:14: 访问加一
+2020-05-13 20:38:14: { counter: 156 }
+2020-05-13 20:38:14: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+      accept: '*/*',
+      'accept-language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+      'accept-encoding': 'gzip, deflate',
+      'x-requested-with': 'XMLHttpRequest',
+      referer: 'http://localhost:8080/index_catelog?catelog=NJE'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:38:14: Tomoyo:GET /api/user/visitCounter - 7ms
+2020-05-13 20:38:14:   --> GET /api/user/visitCounter 200 9ms 20b
+2020-05-13 20:38:44:   <-- GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83
+2020-05-13 20:38:44:   <-- GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83
+2020-05-13 20:38:44: Tomoyo:GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 - 1ms
+2020-05-13 20:38:44:   --> GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 200 4ms 21b
+2020-05-13 20:38:44: Tomoyo:GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 - 2ms
+2020-05-13 20:38:44:   --> GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 200 3ms 21b
+2020-05-13 20:38:44:   <-- GET /api/user/visitCounter
+2020-05-13 20:38:44: 访问加一
+2020-05-13 20:38:44: { counter: 157 }
+2020-05-13 20:38:44: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+      accept: '*/*',
+      'accept-language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+      'accept-encoding': 'gzip, deflate',
+      'x-requested-with': 'XMLHttpRequest',
+      referer: 'http://localhost:8080/index_catelog?catelog=NJE'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:38:44: Tomoyo:GET /api/user/visitCounter - 6ms
+2020-05-13 20:38:44:   --> GET /api/user/visitCounter 200 7ms 20b
+2020-05-13 20:41:50:   <-- GET /api/blog/titleList?catelog=HTML
+2020-05-13 20:41:50:   <-- GET /api/blog/titleList?catelog=HTML
+2020-05-13 20:41:50: Tomoyo:GET /api/blog/titleList?catelog=HTML - 1ms
+2020-05-13 20:41:50:   --> GET /api/blog/titleList?catelog=HTML 200 4ms 438b
+2020-05-13 20:41:50: Tomoyo:GET /api/blog/titleList?catelog=HTML - 2ms
+2020-05-13 20:41:50:   --> GET /api/blog/titleList?catelog=HTML 200 3ms 438b
+2020-05-13 20:41:50:   <-- GET /api/user/visitCounter
+2020-05-13 20:41:50: 访问加一
+2020-05-13 20:41:50: { counter: 158 }
+2020-05-13 20:41:50: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+      accept: '*/*',
+      'accept-language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+      'accept-encoding': 'gzip, deflate',
+      'x-requested-with': 'XMLHttpRequest',
+      referer: 'http://localhost:8080/index_catelog?catelog=HTML'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:41:50: Tomoyo:GET /api/user/visitCounter - 5ms
+2020-05-13 20:41:50:   --> GET /api/user/visitCounter 200 7ms 20b
+2020-05-13 20:41:57:   <-- GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD
+2020-05-13 20:41:57:   <-- GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD
+2020-05-13 20:41:57: Tomoyo:GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD - 2ms
+2020-05-13 20:41:57:   --> GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD 200 6ms 442b
+2020-05-13 20:41:57: Tomoyo:GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD - 4ms
+2020-05-13 20:41:57:   --> GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD 200 7ms 442b
+2020-05-13 20:41:57:   <-- GET /api/user/visitCounter
+2020-05-13 20:41:57: 访问加一
+2020-05-13 20:41:57: { counter: 159 }
+2020-05-13 20:41:57: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+      accept: '*/*',
+      'accept-language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+      'accept-encoding': 'gzip, deflate',
+      'x-requested-with': 'XMLHttpRequest',
+      referer: 'http://localhost:8080/index_catelog?catelog=JP'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:41:57: Tomoyo:GET /api/user/visitCounter - 8ms
+2020-05-13 20:41:57:   --> GET /api/user/visitCounter 200 9ms 20b
+2020-05-13 20:42:24:   <-- GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD
+2020-05-13 20:42:24:   <-- GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD
+2020-05-13 20:42:24: Tomoyo:GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD - 2ms
+2020-05-13 20:42:24:   --> GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD 200 4ms 442b
+2020-05-13 20:42:24: Tomoyo:GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD - 3ms
+2020-05-13 20:42:24:   --> GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD 200 4ms 442b
+2020-05-13 20:42:24:   <-- GET /api/user/visitCounter
+2020-05-13 20:42:24: 访问加一
+2020-05-13 20:42:24: { counter: 160 }
+2020-05-13 20:42:24: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+      accept: '*/*',
+      'accept-language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+      'accept-encoding': 'gzip, deflate',
+      'x-requested-with': 'XMLHttpRequest',
+      referer: 'http://localhost:8080/index_catelog?catelog=JP'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:42:24: Tomoyo:GET /api/user/visitCounter - 6ms
+2020-05-13 20:42:24:   --> GET /api/user/visitCounter 200 7ms 20b
+2020-05-13 20:42:26:   <-- GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83
+2020-05-13 20:42:26: Tomoyo:GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 - 2ms
+2020-05-13 20:42:26:   --> GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 200 2ms 21b
+2020-05-13 20:42:26:   <-- GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83
+2020-05-13 20:42:26: Tomoyo:GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 - 1ms
+2020-05-13 20:42:26:   --> GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 200 2ms 21b
+2020-05-13 20:42:26:   <-- GET /api/user/visitCounter
+2020-05-13 20:42:26: 访问加一
+2020-05-13 20:42:26: { counter: 161 }
+2020-05-13 20:42:26: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+      accept: '*/*',
+      'accept-language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+      'accept-encoding': 'gzip, deflate',
+      'x-requested-with': 'XMLHttpRequest',
+      referer: 'http://localhost:8080/index_catelog?catelog=NJE'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:42:26: Tomoyo:GET /api/user/visitCounter - 6ms
+2020-05-13 20:42:26:   --> GET /api/user/visitCounter 200 7ms 20b
+2020-05-13 20:42:36:   <-- GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD
+2020-05-13 20:42:36:   <-- GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD
+2020-05-13 20:42:36: Tomoyo:GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD - 2ms
+2020-05-13 20:42:36:   --> GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD 200 2ms 442b
+2020-05-13 20:42:36: Tomoyo:GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD - 1ms
+2020-05-13 20:42:36:   --> GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD 200 4ms 442b
+2020-05-13 20:42:36:   <-- GET /api/user/visitCounter
+2020-05-13 20:42:36: 访问加一
+2020-05-13 20:42:36: { counter: 162 }
+2020-05-13 20:42:36: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+      accept: '*/*',
+      'accept-language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+      'accept-encoding': 'gzip, deflate',
+      'x-requested-with': 'XMLHttpRequest',
+      referer: 'http://localhost:8080/index_catelog?catelog=JP'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:42:36: Tomoyo:GET /api/user/visitCounter - 6ms
+2020-05-13 20:42:36:   --> GET /api/user/visitCounter 200 8ms 20b
+2020-05-13 20:42:43:   <-- GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD
+2020-05-13 20:42:43:   <-- GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD
+2020-05-13 20:42:43: Tomoyo:GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD - 1ms
+2020-05-13 20:42:43:   --> GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD 200 3ms 442b
+2020-05-13 20:42:43: Tomoyo:GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD - 1ms
+2020-05-13 20:42:43:   --> GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD 200 2ms 442b
+2020-05-13 20:42:43:   <-- GET /api/user/visitCounter
+2020-05-13 20:42:43: 访问加一
+2020-05-13 20:42:43: { counter: 163 }
+2020-05-13 20:42:43: ctx: {
+  request: {
+    method: 'GET',
+    url: '/api/user/visitCounter',
+    header: {
+      host: 'localhost',
+      connection: 'close',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0',
+      accept: '*/*',
+      'accept-language': 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+      'accept-encoding': 'gzip, deflate',
+      'x-requested-with': 'XMLHttpRequest',
+      referer: 'http://localhost:8080/index_catelog?catelog=JP'
+    }
+  },
+  response: {
+    status: 200,
+    message: 'OK',
+    header: [Object: null prototype] {
+      'content-type': 'application/json; charset=utf-8'
+    }
+  },
+  app: { subdomainOffset: 2, proxy: false, env: 'production' },
+  originalUrl: '/api/user/visitCounter',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2020-05-13 20:42:43: Tomoyo:GET /api/user/visitCounter - 6ms
+2020-05-13 20:42:43:   --> GET /api/user/visitCounter 200 6ms 20b
+2020-05-13 20:44:18:   <-- GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD
+2020-05-13 20:44:18:   <-- GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD
+2020-05-13 20:44:18: Tomoyo:GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD - 7ms
+2020-05-13 20:44:18:   --> GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD 200 20ms 442b
+2020-05-13 20:44:18: Tomoyo:GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD - 11ms
+2020-05-13 20:44:18:   --> GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD 200 17ms 442b
+2020-05-13 20:44:18:   <-- GET /api/user/visitCounter
+2020-05-13 20:44:18: 访问加一
+2020-05-13 20:44:18: Tomoyo:GET /api/user/visitCounter - 8ms
+2020-05-13 20:44:18:   --> GET /api/user/visitCounter 200 10ms 20b
+2020-05-13 20:46:26:   <-- GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD
+2020-05-13 20:46:26:   <-- GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD
+2020-05-13 20:46:26: sql: 
+    select id,title,createtime from blogs where catelog='日语'
+2020-05-13 20:46:26: sql: 
+    select id,title,createtime from blogs where catelog='日语'
+2020-05-13 20:46:26: Tomoyo:GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD - 12ms
+2020-05-13 20:46:26:   --> GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD 200 19ms 442b
+2020-05-13 20:46:26: Tomoyo:GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD - 15ms
+2020-05-13 20:46:26:   --> GET /api/blog/titleList?catelog=%E6%97%A5%E8%AF%AD 200 30ms 442b
+2020-05-13 20:46:26:   <-- GET /api/user/visitCounter
+2020-05-13 20:46:26: 访问加一
+2020-05-13 20:46:26: Tomoyo:GET /api/user/visitCounter - 8ms
+2020-05-13 20:46:26:   --> GET /api/user/visitCounter 200 10ms 20b
+2020-05-13 20:46:30:   <-- GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83
+2020-05-13 20:46:30:   <-- GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83
+2020-05-13 20:46:30: sql: 
+    select id,title,createtime from blogs where catelog='法考'
+2020-05-13 20:46:30: Tomoyo:GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 - 4ms
+2020-05-13 20:46:30:   --> GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 200 8ms 21b
+2020-05-13 20:46:30: sql: 
+    select id,title,createtime from blogs where catelog='法考'
+2020-05-13 20:46:30: Tomoyo:GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 - 3ms
+2020-05-13 20:46:30:   --> GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 200 11ms 21b
+2020-05-13 20:46:30:   <-- GET /api/user/visitCounter
+2020-05-13 20:46:30: 访问加一
+2020-05-13 20:46:30: Tomoyo:GET /api/user/visitCounter - 7ms
+2020-05-13 20:46:30:   --> GET /api/user/visitCounter 200 9ms 20b
+2020-05-13 20:48:13:   <-- GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83
+2020-05-13 20:48:13:   <-- GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83
+2020-05-13 20:48:13: sql: 
+    select id,title,createtime from blogs where catelog='法考'
+2020-05-13 20:48:13: sql: 
+    select id,title,createtime from blogs where catelog='法考'
+2020-05-13 20:48:13: Tomoyo:GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 - 5ms
+2020-05-13 20:48:13:   --> GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 200 8ms 674b
+2020-05-13 20:48:13: Tomoyo:GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 - 7ms
+2020-05-13 20:48:13:   --> GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 200 11ms 674b
+2020-05-13 20:48:13:   <-- GET /api/user/visitCounter
+2020-05-13 20:48:13: 访问加一
+2020-05-13 20:48:13: Tomoyo:GET /api/user/visitCounter - 9ms
+2020-05-13 20:48:13:   --> GET /api/user/visitCounter 200 11ms 20b
+2020-05-13 20:48:18:   <-- GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83
+2020-05-13 20:48:18:   <-- GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83
+2020-05-13 20:48:18: sql: 
+    select id,title,createtime from blogs where catelog='法考'
+2020-05-13 20:48:18: sql: 
+    select id,title,createtime from blogs where catelog='法考'
+2020-05-13 20:48:18: Tomoyo:GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 - 3ms
+2020-05-13 20:48:18:   --> GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 200 7ms 674b
+2020-05-13 20:48:18: Tomoyo:GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 - 5ms
+2020-05-13 20:48:18:   --> GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 200 8ms 674b
+2020-05-13 20:48:18:   <-- GET /api/user/visitCounter
+2020-05-13 20:48:18: 访问加一
+2020-05-13 20:48:18: Tomoyo:GET /api/user/visitCounter - 7ms
+2020-05-13 20:48:18:   --> GET /api/user/visitCounter 200 7ms 20b
+2020-05-13 20:48:51:   <-- GET /api/blog/list?isadmin=1
+2020-05-13 20:48:51: is admin
+2020-05-13 20:48:51: Tomoyo:GET /api/blog/list?isadmin=1 - 1ms
+2020-05-13 20:48:51:   --> GET /api/blog/list?isadmin=1 200 3ms 34b
+2020-05-13 20:48:58:   <-- POST /api/user/login
+2020-05-13 20:48:58: 'd4f795c63f94933cced4701da532492b'
+2020-05-13 20:48:58: sql is: 
+    select username,realname from users where username='Tomoyo' and password='d4f795c63f94933cced4701da532492b';
+2020-05-13 20:48:58: Tomoyo:POST /api/user/login - 38ms
+2020-05-13 20:48:58:   --> POST /api/user/login 200 38ms 11b
+2020-05-13 20:49:00:   <-- GET /api/blog/list?isadmin=1
+2020-05-13 20:49:00: is admin
+2020-05-13 20:49:00: Tomoyo:GET /api/blog/list?isadmin=1 - 8ms
+2020-05-13 20:49:00:   --> GET /api/blog/list?isadmin=1 200 15ms 171.89kb
+2020-05-13 20:49:03:   <-- GET /api/blog/detail?id=23
+2020-05-13 20:49:03: Tomoyo:GET /api/blog/detail?id=23 - 4ms
+2020-05-13 20:49:03:   --> GET /api/blog/detail?id=23 200 5ms 3.69kb
+2020-05-13 20:49:04:   <-- GET /api/blog/detail?id=23
+2020-05-13 20:49:04: Tomoyo:GET /api/blog/detail?id=23 - 1ms
+2020-05-13 20:49:04:   --> GET /api/blog/detail?id=23 200 4ms 3.69kb
+2020-05-13 20:49:04:   <-- GET /api/user/visitCounter
+2020-05-13 20:49:04:   <-- GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83
+2020-05-13 20:49:04: 访问加一
+2020-05-13 20:49:04: sql: 
+    select id,title,createtime from blogs where catelog='法考'
+2020-05-13 20:49:04: Tomoyo:GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 - 4ms
+2020-05-13 20:49:04:   --> GET /api/blog/titleList?catelog=%E6%B3%95%E8%80%83 200 6ms 674b
+2020-05-13 20:49:04: Tomoyo:GET /api/user/visitCounter - 11ms
+2020-05-13 20:49:04:   --> GET /api/user/visitCounter 200 14ms 20b
+2020-05-13 20:49:14:   <-- POST /api/blog/update?id=23
+2020-05-13 20:49:14: Tomoyo:POST /api/blog/update?id=23 - 5ms
+2020-05-13 20:49:14:   --> POST /api/blog/update?id=23 200 6ms 11b
+2020-05-13 20:49:18:   <-- GET /api/blog/list?isadmin=1
+2020-05-13 20:49:18: is admin
+2020-05-13 20:49:18: Tomoyo:GET /api/blog/list?isadmin=1 - 5ms
+2020-05-13 20:49:18:   --> GET /api/blog/list?isadmin=1 200 8ms 171.9kb
+2020-05-13 20:49:24:   <-- GET /api/blog/detail?id=19
+2020-05-13 20:49:24: Tomoyo:GET /api/blog/detail?id=19 - 3ms
+2020-05-13 20:49:24:   --> GET /api/blog/detail?id=19 200 4ms 4.45kb
+2020-05-13 20:49:27:   <-- GET /api/blog/detail?id=19
+2020-05-13 20:49:27: Tomoyo:GET /api/blog/detail?id=19 - 3ms
+2020-05-13 20:49:29:   <-- POST /api/blog/update?id=19
+2020-05-13 20:49:29: Tomoyo:POST /api/blog/update?id=19 - 13ms
+2020-05-13 20:49:29:   --> POST /api/blog/update?id=19 200 13ms 11b
+2020-05-13 20:49:32:   <-- GET /api/blog/detail?id=18
+2020-05-13 20:49:32: Tomoyo:GET /api/blog/detail?id=18 - 3ms
+2020-05-13 20:49:32:   --> GET /api/blog/detail?id=18 200 5ms 8.64kb
+2020-05-13 20:49:34:   <-- POST /api/blog/update?id=18
+2020-05-13 20:49:34: Tomoyo:POST /api/blog/update?id=18 - 11ms
+2020-05-13 20:49:34:   --> POST /api/blog/update?id=18 200 13ms 11b
+2020-05-13 20:49:36:   <-- GET /api/blog/list?isadmin=1
+2020-05-13 20:49:36: is admin
+2020-05-13 20:49:36: Tomoyo:GET /api/blog/list?isadmin=1 - 4ms
+2020-05-13 20:49:36:   --> GET /api/blog/list?isadmin=1 200 9ms 171.92kb
+2020-05-13 20:49:39:   <-- GET /api/blog/detail?id=17
+2020-05-13 20:49:39: Tomoyo:GET /api/blog/detail?id=17 - 2ms
+2020-05-13 20:49:39:   --> GET /api/blog/detail?id=17 200 4ms 3.82kb
+2020-05-13 20:49:41:   <-- POST /api/blog/update?id=17
+2020-05-13 20:49:41: Tomoyo:POST /api/blog/update?id=17 - 12ms
+2020-05-13 20:49:41:   --> POST /api/blog/update?id=17 200 13ms 11b
